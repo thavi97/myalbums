@@ -11,10 +11,10 @@ return [
 
     // These are various options for the listeners attached to the ModuleManager
     'module_listener_options' => [
-        
+
          // use composer autoloader instead of zend-loader
         'use_zend_loader' => false,
-        
+
         // An array of paths from which to glob configuration files after
         // modules are loaded. These effectively override configuration
         // provided by modules themselves. Paths may use GLOB_BRACE notation.
